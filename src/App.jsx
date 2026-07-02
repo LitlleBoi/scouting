@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import logo from '../logo.png';
 
 const DATA = {
   BWS: {
@@ -187,7 +188,9 @@ function StartPage({ onStart, savedProgress }) {
   return (
     <div className="fade-in">
       <div className="hero">
-        <div className="eyebrow">⚜️ Scouting Nederland · Laat je uitdagen!</div>
+        <div className="hero-brand">
+          <img src={logo} alt="Scouting logo" className="hero-logo" />
+        </div>
         <h1>Competentieroos</h1>
         <p>Beoordeel jezelf op 27 competenties en krijg snel inzicht in je sterke punten en ontwikkelkansen.</p>
       </div>
