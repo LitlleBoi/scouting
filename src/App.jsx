@@ -196,26 +196,8 @@ function StartPage({ onStart, savedProgress }) {
       </div>
 
       <div className="panel panel-soft">
-        <h2>Huisstijl in één oogopslag</h2>
-        <div className="grid-2">
-          <div className="mini-card">
-            <h3>Scouting kleuren</h3>
-            <div className="swatches">
-              <span className="swatch red">Rood</span>
-              <span className="swatch blue">Blauw</span>
-              <span className="swatch yellow">Geel</span>
-              <span className="swatch green">Groen</span>
-            </div>
-          </div>
-          <div className="mini-card">
-            <h3>Belangrijke regels</h3>
-            <ul>
-              <li>Gebruik het Scouting-logo altijd full colour of wit op een foto.</li>
-              <li>Gebruik Arial als basislettertype en Impact voor opvallende titels.</li>
-              <li>Fotografie moet uitdaging, plezier en herkenbaarheid tonen.</li>
-            </ul>
-          </div>
-        </div>
+        <p className="intro-copy">Kies de groep die het best past bij jouw leidingservaring. Daarna ga je door 27 competenties en krijg je direct een overzicht van je sterke punten en ontwikkelkansen.</p>
+        <p className="intro-copy">BWS is voor de jongere groepen binnen Scouting: Bevers, Welpen en Scouts. ER is voor de oudere groepen: Explorers en Roverscouts. Kies de optie die het best past bij de groep waarin jij werkt of leiding geeft.</p>
       </div>
 
       <div className="grid-2">
