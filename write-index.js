@@ -1,0 +1,15 @@
+const fs = require('fs');
+const html = `<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Competentieroos – Scouting</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+`;
+fs.writeFileSync('index.html', html, 'utf8');
